@@ -12,9 +12,12 @@ app.on('window-all-closed', function(){
 
 app.on('ready', function(){
 	mainWindow = new BrowserWindow({width: 800, height: 600});
-	mainWindow.loadURL('http://localhost:8000/');
+	mainWindow.loadURL('https://polar-lowlands-35381.herokuapp.com/');
 	//mainWindow.openDevTools();
 	mainWindow.on('close', function(){
 		mainWindow = null;
 	})
 })
+
+
+app.on('')

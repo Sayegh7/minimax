@@ -14,7 +14,7 @@ app.get('/comments', function(req, res){
 	var data = require('./comments.json');
 res.send(JSON.stringify(data));
 })
-http.listen(80, function () {
+http.listen(3000, function () {
 	console.log("listening on port 8000")
 })
 

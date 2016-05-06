@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "first electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.8",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

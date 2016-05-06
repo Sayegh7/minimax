@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "server for electron messaging app",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "author": "Sayegh",
   "license": "ISC",
   "dependencies": {
